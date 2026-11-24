@@ -746,7 +746,48 @@ const researchItems = [
   }
 ];
 
+const featuredCoverage = {
+  audi: {
+    title: "Here’s how Georgia leaders recruited Audi’s $4B plant, its first in the U.S.",
+    outlet: "Atlanta Journal-Constitution",
+    date: "2026-10-26",
+    type: "Article",
+    url: "https://www.ajc.com/business/2026/10/how-georgia-won-audi-plant/",
+    excerpt: "Golara explains how Georgia’s automotive supplier network helped make the state attractive to Audi.",
+    image: "Images/AJC.png"
+  },
+  hormuz: {
+    title: "Why the Strait of Hormuz matters to global markets",
+    outlet: "11Alive (NBC Atlanta)",
+    date: "2026-04-14",
+    type: "Video",
+    url: "https://www.youtube.com/watch?v=X95pAHzcq9g",
+    excerpt: "Golara explains how disruptions in the Strait of Hormuz can affect global trade and energy prices.",
+    image: "Images/11AliveImge.png"
+  },
+  alJazeera: {
+    title: "US car sales slow after tariff-driven buying surge ends",
+    outlet: "Al Jazeera",
+    date: "2025-08-13",
+    type: "Article",
+    url: "https://www.aljazeera.com/economy/2025/8/13/automakers-brace-for-profit-hits-as-tariffs-trigger-price-hikes",
+    excerpt: "Golara discusses how tariff-driven price increases and expiring EV tax credits can affect U.S. vehicle demand.",
+    image: "Images/Aljazeer.png"
+  }
+};
+
+function formatMediaDate(date) {
+  const options = { month: "short", year: "numeric", timeZone: "UTC" };
+  if (date.length === 10) options.day = "numeric";
+  return new Intl.DateTimeFormat("en-US", options).format(new Date(date));
+}
+
+function newsHighlight(item) {
+  return { ...item, date: formatMediaDate(item.date), summary: item.excerpt };
+}
+
 const mediaItems = [
+  ...Object.values(featuredCoverage),
   {
     id: 1,
     title: "‘A Lot of Chaos’: Bridge Collapse Creates Upheaval at Largest U.S. Port for Car Trade",
@@ -789,13 +830,13 @@ const mediaItems = [
   },
   {
     id: 5,
-    title: "Shifting tariffs thrust Georgia companies onto unsteady ground",
-    outlet: "Atlanta Journal-Constitution",
-    date: "2024-05-15",
+    title: "Are tariffs good or bad for the economy? Research says they can be bad for the supply chain",
+    outlet: "Georgia State News Hub",
+    date: "2024-10-15",
     type: "Article",
     url: "https://news.gsu.edu/2024/10/15/are-tariffs-good-or-bad-for-the-economy/",
-    excerpt: "Tariff ripple effects across Georgia firms; expert perspective from Golara.",
-    image: "Images/AJC.png"
+    excerpt: "Georgia State News covers Golara and coauthors’ research on how tariffs affect firms across domestic supply networks.",
+    georgiaStateBrand: true
   },
   {
     id: 6,
@@ -806,8 +847,85 @@ const mediaItems = [
     url: "https://scrippsnews.com/stories/farmers-prepare-for-potential-fallout-from-trumps-wednesday-tariffs/",
     excerpt: "Possible retaliation risks and supply-chain impacts for U.S. agriculture.",
     image: "Images/Farmers.png"
+  },
+  {
+    title: "How do Georgia businesses and consumers get tariff refunds? It’s complicated.",
+    outlet: "Atlanta Journal-Constitution",
+    date: "2026-04-22",
+    type: "Article",
+    url: "https://www.ajc.com/business/2026/04/how-do-georgia-businesses-and-consumers-get-tariff-refunds-its-complicated/",
+    excerpt: "Golara discusses who can claim tariff refunds and who ultimately bore the costs.",
+    image: "Images/AJC.png"
+  },
+  {
+    title: "Bittersweet: Candymakers navigate tariff, supply chain challenges during holiday season",
+    outlet: "WSB-TV",
+    date: "2025-12-18",
+    type: "Article",
+    url: "https://www.wsbtv.com/news/local/bittersweet-candymakers-navigate-tariff-supply-chain-challenges-during-holiday-season/2QYRHCAOLFACVDUGWJ4TICISIE/",
+    excerpt: "Golara explains how tariffs and ingredient shortages shaped chocolate makers’ production decisions."
+  },
+  {
+    title: "Stability remains elusive for Georgia businesses as tariff deadlines pass",
+    outlet: "Atlanta Journal-Constitution",
+    date: "2025-08-12",
+    type: "Article",
+    url: "https://www.ajc.com/business/2025/08/stability-remains-elusive-for-georgia-businesses-as-tariff-deadlines-pass/",
+    excerpt: "Golara explains how tariffs and borrowing costs can squeeze Georgia businesses and consumers.",
+    image: "Images/AJC.png"
+  },
+  {
+    title: "Trump’s tariffs are leaving Black beauty businesses in peril",
+    outlet: "Reuters",
+    date: "2025-08-19",
+    type: "Article",
+    url: "https://www.reuters.com/world/us/trumps-tariffs-are-leaving-black-beauty-businesses-peril-2025-08-19/",
+    excerpt: "Golara explains how tariff costs reach businesses and consumers in the beauty supply chain."
+  },
+  {
+    title: "Georgia’s economists weigh in on data center growth and tariff impacts",
+    outlet: "WABE",
+    date: "2025-08-29",
+    type: "Article",
+    url: "https://www.wabe.org/georgias-economists-weigh-in-on-data-center-growth-and-tariff-impacts/",
+    excerpt: "Golara explains how automobile tariffs can affect Georgia dealerships, import volumes, and logistics.",
+    image: "Images/NPR.png"
+  },
+  {
+    title: "The tomato tariff? US consumers set to pay price of Donald Trump’s trade war",
+    outlet: "Financial Times",
+    date: "2025-02",
+    type: "Article",
+    url: "https://www.ft.com/content/cf478656-e1c6-43e7-8b2d-e18e2161f160",
+    excerpt: "Golara comments on how tariff retaliation could raise prices for U.S. consumers."
+  },
+  {
+    title: "Waffle House isn’t immune from inflation either. There’s a new surcharge on eggs",
+    outlet: "NPR (All Things Considered)",
+    date: "2025-02-05",
+    type: "Interview",
+    url: "https://www.npr.org/2025/02/05/nx-s1-5287644/waffle-house-isnt-immune-from-inflation-either-theres-a-new-surcharge-on-eggs",
+    excerpt: "Golara explains how an egg surcharge could shift what customers order.",
+    image: "Images/NPR.png"
+  },
+  {
+    title: "Trump’s tariff plan is an inflation plan",
+    outlet: "Vox",
+    date: "2024-11-26",
+    type: "Article",
+    url: "https://www.vox.com/commerce/387800/trump-tariffs-inflation-economy-china-global-trade",
+    excerpt: "Golara explains why absorbing higher tariff costs can be difficult for importers."
+  },
+  {
+    title: "Georgia Today: President-elect Trump’s tariffs plan explained",
+    outlet: "Georgia Public Broadcasting",
+    date: "2024-11-13",
+    type: "Interview",
+    url: "https://www.gpb.org/news/2024/11/13/georgia-today-president-elect-trumps-tariffs-plan-explained-peer-support-centers",
+    excerpt: "Golara discusses how proposed import tariffs could affect prices, jobs, and supply chains."
   }
 ];
+
 const teaching = {
   courses: [
     // Georgia State University (Instructor | Aug 2023 – )
@@ -828,6 +946,21 @@ const teaching = {
     { institution: "Arizona State University", code: "SCM 300", title: "Intro to Supply Chain Management (TA)", level: "Undergrad", years: "2017–2018" },
   ],
   advising: [
+    {
+      institution: "Georgia State University",
+      type: "DBA Dissertation",
+      years: "2026",
+      title: "Navigating Supply Chain Disruptions: A Two-Essay Dissertation",
+      role: "Madhavi Latha Nandi · Dissertation Committee Member"
+    },
+    {
+      institution: "Kennesaw State University",
+      type: "PhD in Business Administration",
+      years: "Nov 8, 2023",
+      title: "Buyer-Supplier Relationships: A Case Investigation in the Rug and Textile Industry",
+      role: "Obie Paul Byrum · Dissertation Reader",
+      url: "https://digitalcommons.kennesaw.edu/phdba_etd/35/"
+    },
     // MIT CTL capstones (Research Advisor / Co-advisor)
     { institution: "MIT CTL", years: "2018–2019", role: "Co-advisor",  title: "Incentivizing No-Rush Delivery in Omnichannel Retail", type: "Graduate Capstone" },
     { institution: "MIT CTL", years: "2018–2019", role: "Advisor/Trainer", title: "Online Grocery & Omnichannel Strategy: Predicting Home Delivery Adoption", type: "Graduate Capstone" },
@@ -864,7 +997,9 @@ const teaching = {
     ];
 
       // ---------- HIGHLIGHTS DATA ----------
-  const newsHighlights = [
+const newsHighlights = [
+  newsHighlight(featuredCoverage.audi),
+  { ...newsHighlight(featuredCoverage.hormuz), cta: "WATCH INTERVIEW" },
   {
     outlet: "The New York Times",
     date: "Mar 26, 2024",
@@ -895,15 +1030,7 @@ const teaching = {
       "Brief feature highlighting Golara’s view on demand signals and retail operations amid macro uncertainty."
   },
 
-  {
-    outlet: "Al Jazeera",
-    date: "1 month ago", // replace with exact date if you prefer
-    title: "US car sales slow after tariff-driven buying surge ends",
-    url: "#", // ← paste live link
-    image: "Images/Aljazeer.png",
-    summary:
-      "Major car makers including Ford, GM and Volvo took hits because of tariff-associated costs."
-  },
+  newsHighlight(featuredCoverage.alJazeera),
   {
     outlet: "Scripps News (#Farmers)",
     date: "Apr 1, 2025",
@@ -926,6 +1053,19 @@ const teaching = {
   }
   // add more items as needed, keeping outlet/date/title/url/image/summary
 ];
+
+function workingPaperCard(heading) {
+  return `
+    <article class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/60 p-5 md:p-6">
+      <${heading} class="text-xl font-bold text-brand dark:text-slate-100">
+        The Effect of Portability Regulation on Piracy: Evidence from a Natural Experiment
+      </${heading}>
+      <p class="mt-2 text-slate-700 dark:text-slate-300">Koushyar Rajavi, Shijie Lu, Sina Golara, and D. J. Wu</p>
+      <p class="mt-2 font-semibold text-brand dark:text-gold">Under minor revision at Management Science</p>
+      <p class="mt-2 text-slate-700 dark:text-slate-300">The study uses a natural experiment to examine how portability regulation affects piracy.</p>
+    </article>
+  `;
+}
 
 const pubHighlights = [
   {
@@ -1113,6 +1253,11 @@ const homePage = `
       Highlights
     </h2>
 
+    <div>
+      <h3 class="text-xl font-semibold mb-4 text-slate-900 dark:text-white">Featured Working Paper</h3>
+      ${workingPaperCard("h4")}
+    </div>
+
     <!-- Publications -->
     <div>
       <h3 class="text-xl font-semibold mb-4 text-slate-900 dark:text-white">Publications</h3>
@@ -1137,6 +1282,24 @@ const homePage = `
       </div>
     </div>
 
+    <div>
+      <h3 class="text-xl font-semibold mb-4 text-slate-900 dark:text-white">Honors &amp; Awards</h3>
+      <div class="grid gap-4 md:grid-cols-2">
+        <article class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/60 p-5">
+          <h4 class="text-lg font-bold text-brand dark:text-slate-100">2025 Best Reviewer Award</h4>
+          <p class="mt-1 font-semibold">Journal of Supply Chain Management</p>
+          <p class="mt-2">Presented at the 2026 Academy of Management Annual Meeting.</p>
+          <a href="https://www.linkedin.com/posts/journalofsupplychainmanagement_meet-the-journal-of-supply-chain-management-activity-7498997816640466944-Q4xy"
+             target="_blank" rel="noreferrer" class="inline-block mt-3 text-brand dark:text-gold font-semibold underline underline-offset-4">Award announcement</a>
+        </article>
+        <article class="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/60 p-5">
+          <h4 class="text-lg font-bold text-brand dark:text-slate-100">Societal Impact Award</h4>
+          <p class="mt-1 font-semibold">Robinson College of Business, Georgia State University · 2026</p>
+          <p class="mt-2">Supports research on the effects of AI data centers on local communities.</p>
+        </article>
+      </div>
+    </div>
+
     <!-- News -->
     <div>
       <h3 class="text-xl font-semibold mb-4 text-slate-900 dark:text-white">News</h3>
@@ -1152,7 +1315,7 @@ const homePage = `
               </h4>
               <p class="news-summary text-center">${n.summary}</p>
               <div class="text-center">
-                <a class="news-cta" href="${n.url}" target="_blank" rel="noreferrer">READ ARTICLE</a>
+                <a class="news-cta" href="${n.url}" target="_blank" rel="noreferrer">${n.cta ?? "READ ARTICLE"}</a>
               </div>
             </div>
           </div>
@@ -1213,6 +1376,11 @@ const homePage = `
   </section>
 
   <section class="mt-10">
+    <h2 class="mb-4 text-2xl font-bold text-brand dark:text-slate-100">Working Papers</h2>
+    ${workingPaperCard("h3")}
+  </section>
+
+  <section class="mt-10">
       <!-- Filters -->
       <div class="flex flex-wrap gap-4 items-center justify-center rounded-2xl p-4 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/50 backdrop-blur-md shadow-glow">
     <label class="font-semibold">Tag:</label>
@@ -1249,7 +1417,7 @@ const homePage = `
 const teachingPage = `
   <h1 class="text-4xl md:text-5xl font-bold text-center">Teaching & Mentorship</h1>
   <p class="mt-2 text-center text-slate-600 dark:text-slate-400">
-    Courses taught across GSU, KSU, MIT CTL/MITx, and ASU; plus advising on graduate capstones.
+    Courses taught across GSU, KSU, MIT CTL/MITx, and ASU, with graduate capstone advising and doctoral dissertation service.
   </p>
 
   <!-- Courses -->
@@ -1268,6 +1436,17 @@ const teachingPage = `
     <p class="mt-4 text-sm text-slate-600 dark:text-slate-400">
       ${teaching.note}
     </p>
+  </section>
+
+  <section class="mt-8 rounded-3xl p-6 md:p-7 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/50 backdrop-blur-md shadow-glow">
+    <h2 class="text-xl md:text-2xl font-bold text-brand dark:text-slate-100">Invited Talks</h2>
+    <article class="mt-4 rounded-xl border border-slate-200 dark:border-slate-700 p-4">
+      <h3 class="text-lg font-semibold">Product Management</h3>
+      <p class="mt-1 font-semibold">Keynote speaker · July 29, 2026</p>
+      <p class="mt-2">Envision by WorldStrides National Youth Leadership Forum: Business Academy</p>
+      <p>Georgia Institute of Technology</p>
+      <p class="mt-2 text-slate-700 dark:text-slate-300">Introduced high school students to the product lifecycle, customer research, and how to measure product success.</p>
+    </article>
   </section>
 `;
 
@@ -1644,14 +1823,15 @@ function renderTeaching(){
   // count
   countEl.textContent = `${teaching.courses.length} course${teaching.courses.length===1?'':'s'}`;
 
-  // Advising (unchanged)
   const advisingItem = (a) => `
     <li class="rounded-xl p-4 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/50">
-      <div class="flex items-center justify-between">
-        <span class="text-sm font-semibold text-brand">${a.institution} • ${a.type}</span>
-        <span class="text-xs text-slate-500 dark:text-slate-400">${a.years}</span>
+      <div class="flex items-start justify-between gap-3">
+        <span class="text-sm font-semibold text-brand dark:text-slate-100">${a.institution} • ${a.type}</span>
+        <span class="shrink-0 text-xs text-slate-500 dark:text-slate-400">${a.years}</span>
       </div>
-      <div class="mt-1 text-[15px] font-medium">${a.title}</div>
+      <div class="mt-1 text-[15px] font-medium">
+        ${a.url ? `<a href="${a.url}" class="underline underline-offset-4" target="_blank" rel="noreferrer">${a.title}</a>` : a.title}
+      </div>
       <div class="text-sm text-slate-600 dark:text-slate-300">${a.role}</div>
     </li>`;
   advisingEl.innerHTML = teaching.advising.map(advisingItem).join('');
@@ -1663,49 +1843,6 @@ function renderMedia(){
   const typeSel = document.getElementById('media-type-filter');
   const sortSel = document.getElementById('media-sort-by');
   const listEl  = document.getElementById('media-list');
-
-  // Map each outlet to its image in /Images
-  const mediaImages = {
-    'The New York Times': 'Images/NYTImg.png',
-    'Politico': 'Images/Politico.png',
-    'NPR': 'Images/NPR.png',
-    'Fox 5 Atlanta': 'Images/Fox5.png',
-    'Atlanta Journal-Constitution': 'Images/AJC.png',
-    'Auto Weekly Podcast': 'Images/AutoWeekly.png',
-    'Business News Network': 'Images/BNN.png',
-    'The Digital Consumer': 'Images/DigitalConsumer.png'
-    // add/edit as needed to match your filenames
-  };
-
-  // ---- helpers ----
-  const mediaImg = (m) => {
-    // Prefer explicit image on the item, else use outlet map, else a clean placeholder
-    if (m.image) return m.image;
-    const key = (m.outlet || '').trim();
-    return mediaImages[key] || `https://placehold.co/800x450?text=${encodeURIComponent(key || 'Media')}`;
-  };
-
-  const typeIcon = (t='Article') => {
-    const tt = t.toLowerCase();
-    if(tt==='video')   return `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14v2a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h8a2 2 0 012 2v2z"/></svg>`;
-    if(tt==='podcast') return `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3a7 7 0 00-7 7 7 7 0 005 6.708V22h4v-5.292A7 7 0 0019 10a7 7 0 00-7-7zm0 4a3 3 0 110 6 3 3 0 010-6z"/></svg>`;
-    if(tt==='interview') return `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5h18v10H7l-4 4V5z"/></svg>`;
-    return `<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 4h16v16H4z"/></svg>`;
-  };
-
-  const typeBadgeClass = (t='Article') => {
-    const tt = t.toLowerCase();
-    if(tt==='video')     return 'bg-red-500/90 text-white';
-    if(tt==='podcast')   return 'bg-purple-500/90 text-white';
-    if(tt==='interview') return 'bg-emerald-500/90 text-white';
-    return 'bg-white/90 text-slate-900 dark:bg-black/60 dark:text-white/90';
-  };
-
-  // Pretty date (e.g., "Mar 26, 2024"); falls back to original if not ISO
-const prettyDate = (d) => {
-  const dt = new Date(d);
-  return isNaN(dt) ? (d || "") : dt.toLocaleDateString(undefined, { month: "short", day: "2-digit", year: "numeric" });
-};
 
 // Round icon button matching the item type
 const typeGlyph = (t = "Article") => {
@@ -1723,27 +1860,28 @@ const typeGlyph = (t = "Article") => {
 };
 
 // ---- Card (image → meta bubble → title/excerpt) ----
-const card = (m) => `
+const card = (m) => {
+  const hasVisual = m.image || m.georgiaStateBrand;
+  return `
   <a href="${m.url}" target="_blank" rel="noreferrer"
      class="group block rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-900/50 backdrop-blur-md shadow-glow hover:-translate-y-0.5 transition">
 
-    <!-- visual -->
-    <div class="relative overflow-hidden rounded-xl border-b border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800">
-      <img
-        src="${mediaImg(m)}"
-        alt="${m.outlet} — ${m.title}"
-        class="block w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
-        style="aspect-ratio:16/9;"
-        loading="lazy" decoding="async"
-        onerror="this.src='https://placehold.co/800x450?text=Media';this.onerror=null;"
-      />
-    </div>
+    ${m.image ? `
+      <div class="relative overflow-hidden rounded-xl border-b border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800">
+        <img src="${m.image}" alt="${m.outlet}" loading="lazy" decoding="async"
+             class="block w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-[1.03]">
+      </div>
+    ` : m.georgiaStateBrand ? `
+      <div aria-hidden="true" class="grid aspect-video place-content-center rounded-xl bg-brand px-6 text-center text-white">
+        <span class="text-2xl md:text-3xl font-bold">Georgia State News Hub</span>
+      </div>
+    ` : ""}
 
     <!-- body -->
     <div class="p-4">
 
       <!-- flexible meta container sitting right under the image -->
-      <div class="flex items-center justify-between -mt-5 mb-2">
+      <div class="flex items-center justify-between mb-2 ${hasVisual ? "-mt-5" : ""}">
         <div class="meta-bubble flex items-center gap-2 px-3 py-1.5 rounded-xl
                     bg-white/90 dark:bg-slate-900/70 backdrop-blur-md
                     shadow-md ring-1 ring-black/10 dark:ring-white/10
@@ -1752,7 +1890,7 @@ const card = (m) => `
             ${m.outlet}
           </span>
           <span class="text-[11px] text-slate-600/90 dark:text-white/70 whitespace-nowrap">
-            • ${prettyDate(m.date)}
+            • ${formatMediaDate(m.date)}
           </span>
         </div>
 
@@ -1763,10 +1901,11 @@ const card = (m) => `
       <h3 class="text-lg font-bold text-brand leading-snug group-hover:underline underline-offset-4 decoration-gold/60">
         ${m.title}
       </h3>
-      <p class="mt-1 text-sm italic text-slate-600 dark:text-slate-300">“${m.excerpt}”</p>
+      <p class="mt-1 text-sm text-slate-600 dark:text-slate-300">${m.excerpt}</p>
     </div>
   </a>
 `;
+};
 
   function draw(){
     const t = typeSel.value;
@@ -1775,8 +1914,8 @@ const card = (m) => `
 
     if(t !== 'all') list = list.filter(m => m.type === t);
     list.sort((a,b)=> s==='date_asc'
-      ? new Date(a.date)-new Date(b.date)
-      : new Date(b.date)-new Date(a.date));
+      ? a.date.localeCompare(b.date)
+      : b.date.localeCompare(a.date));
 
     listEl.innerHTML = list.length
       ? list.map(card).join('')

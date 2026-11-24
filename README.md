@@ -1,4 +1,4 @@
-# Professor Portfolio (Template)
+# CV and Website
 
 **1-Click Start:** https://github.com/saiprasadchary/prof-temp-portfolio/generate
 
