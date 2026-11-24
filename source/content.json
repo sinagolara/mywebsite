@@ -1,0 +1,517 @@
+{
+  "person": {
+    "name": "Sina Golara",
+    "title": "Assistant Professor of Supply Chain Management",
+    "school": "J. Mack Robinson College of Business",
+    "institution": "Georgia State University",
+    "email": "sgolara@gsu.edu",
+    "profile": "https://robinson.gsu.edu/profile/sina-golara/",
+    "linkedin": "https://www.linkedin.com/in/sinagolara/",
+    "x": "https://x.com/GolaraSina",
+    "portrait": "Images/headshot.jpg",
+    "cv": "Sina_Golara__CV__2026.pdf",
+    "intro": "I study how digital platforms, omnichannel retail, and service operations shape supply chains.",
+    "bio": [
+      "My research uses field experiments and observational data to study how people and firms respond to changes in retail and service operations. My work has appeared in Production and Operations Management, Information Systems Research, Journal of Business Logistics, and Journal of Purchasing and Supply Management.",
+      "Before joining Georgia State, I was on the faculty at Kennesaw State University and a postdoctoral associate at MIT’s Center for Transportation & Logistics. I have consulted with Walmart Global eCommerce, Flexe, and Chemonics on last-mile operations, shared warehousing, and analytics.",
+      "My work has received the Academy of Management OSCM Best Student Paper Award, the Journal of Purchasing and Supply Management Best Paper Award, and a Coles College FT50 Publication Award."
+    ]
+  },
+  "featured_publications": [
+    "disruptor",
+    "achievement-goals",
+    "inventory"
+  ],
+  "featured_media": [
+    "audi",
+    "hormuz"
+  ],
+  "publications": [
+    {
+      "id": "disruptor",
+      "title": "When the Disruptor Is Disrupted: The Role of Transactional Friction on Incumbents During the Exit and Re-Entry of Innovative Firms",
+      "authors": "S. Golara, S. Jeong, and Z. S. Rogers",
+      "journal": "Journal of Business Logistics",
+      "year": 2026,
+      "reference": "47(2), e70059",
+      "summary": "Examines how competing dealerships adjust inventory when an online retailer exits and re-enters a market.",
+      "doi": "10.1111/jbl.70059",
+      "abstract_overview": "The study uses Carvana’s license suspensions and reinstatements to examine how established used-car dealerships respond when an online competitor leaves and returns. A synthetic difference-in-differences analysis of monthly sales at 19,281 dealerships finds that nearby competitors gained sales during the suspensions and retained gains after Carvana returned. Greater assortment breadth and higher service levels helped dealers keep the customers they gained."
+    },
+    {
+      "id": "achievement-goals",
+      "title": "The Impact of Situational Achievement Goals on Online Learning Behavior: Results from Field Experiments",
+      "authors": "N. Mousavi, S. Golara, and J. Bockstedt",
+      "journal": "Information Systems Research",
+      "year": 2025,
+      "reference": "36(2), 983–1010",
+      "summary": "Field experiments show which achievement goals improve participation and performance in an online course.",
+      "doi": "10.1287/isre.2022.0353",
+      "abstract_overview": "Two field experiments test how goal-setting prompts affect engagement and performance in a massive open online course. The first experiment involved more than 2,000 learners in 171 countries. Prompts encouraging learners to demonstrate their ability performed especially well, with outcomes varying by prior performance and social activity. The second experiment found the strongest learning outcomes when learners were encouraged both to master the material and to demonstrate their ability."
+    },
+    {
+      "id": "inventory",
+      "title": "Impact of Inventory Levels and Product Variety on Consumers’ Perceptions of Brands",
+      "authors": "K. Rajavi, S. Golara, and S. Modaresi",
+      "journal": "Production and Operations Management",
+      "year": 2024,
+      "reference": "33(9), 1855–1874",
+      "summary": "Higher vehicle inventory strengthens brand perceptions, and the effect of product variety varies across consumers and brands.",
+      "doi": "10.1177/10591478241258475",
+      "abstract_overview": "The authors combine vehicle listings from more than 20,000 U.S. dealerships with nearly 274,000 survey responses from people shopping for cars. Across several methods, shoppers perceived brands more favorably when more inventory was available. Assortment breadth had no consistent overall effect on its own. Both effects varied with shopper income and whether the brand was considered a luxury brand."
+    },
+    {
+      "id": "service-innovation",
+      "title": "Service Activity and Patented Innovation in Manufacturing Firms",
+      "authors": "S. Golara and K. J. Dooley",
+      "journal": "Production and Operations Management",
+      "year": 2024,
+      "reference": "33(3), 663–681",
+      "summary": "Manufacturers with more service activity generate more patented innovations, especially through services that involve close customer contact.",
+      "doi": "10.1177/10591478241231851",
+      "abstract_overview": "This study combines three decades of activity at 8,087 manufacturers with records of more than 1.5 million patents. Firms with greater service activity generated more patentable innovations, particularly when their services involved direct customer interaction or specialized knowledge. Additional analyses suggest that some of these patents also departed more sharply from the firms’ earlier innovation patterns."
+    },
+    {
+      "id": "supply-chain-topics",
+      "title": "Supply Chain Management Research Productivity and Topics: 2020–2022",
+      "authors": "M. J. Maloni, R. M. Franza, G. H. Lowman, S. A. Naphsin, and S. Golara",
+      "journal": "Transportation Journal",
+      "year": 2024,
+      "reference": "63(2), 111–126",
+      "summary": "Tracks who publishes supply chain management research and which topics their studies address.",
+      "doi": "10.1002/tjo3.12010",
+      "abstract_overview": "The authors update a 55-year series on academic publishing in supply chain management by tracking output from 2020 to 2022. Many schools and doctoral programs remained prominent, even as the most productive school changed and research activity became distributed across more scholars. The paper also identifies the research subjects that appeared most often and gives programs a benchmark for evaluating their research activity."
+    },
+    {
+      "id": "tariffs",
+      "title": "Protect Me Not: The Effect of Tariffs on U.S. Supply Networks",
+      "authors": "Z. S. Rogers, S. Golara, Y. Abdulsalam, and D. S. Rogers",
+      "journal": "Journal of Purchasing and Supply Management",
+      "year": 2024,
+      "reference": "30(1), 100897",
+      "summary": "Examines how U.S. steel and aluminum tariffs changed the structure of domestic supply networks.",
+      "doi": "10.1016/j.pursup.2024.100897",
+      "abstract_overview": "An event study tracks stock-market responses at 691 U.S. public companies to four groups of tariffs introduced in 2018. It follows producers in the industries targeted for protection along with their suppliers and customers. Firm values fell overall, including for the domestic producers the tariffs aimed to protect, and the effects on their trading partners differed across industries."
+    },
+    {
+      "id": "supplier-sustainability",
+      "title": "Moving Beyond the Four Walls: The Evolving Impact of Supplier Sustainability on Firm Value",
+      "authors": "Z. S. Rogers, S. Golara, and C. R. Carter",
+      "journal": "Journal of Purchasing and Supply Management",
+      "year": 2023,
+      "reference": "29(4), 100858",
+      "summary": "Shows how financial markets’ responses to suppliers’ environmental and social performance have changed over time.",
+      "doi": "10.1016/j.pursup.2023.100858",
+      "abstract_overview": "The study analyzes 3,986 announcements about social or environmental performance between 1994 and 2013 to compare the effects of companies’ own actions with those of their suppliers. The connection to supplier performance was weak early in the period. After 2000, markets responded to suppliers’ social performance, while suppliers’ environmental performance was less strongly associated with the value of the companies they supplied."
+    },
+    {
+      "id": "teaching-operations",
+      "title": "It’s Not You, It’s Me: Can Others Learn from the Challenges of Teaching Operations and Supply Chain Management?",
+      "authors": "J. A. Swaim, M. J. Maloni, S. Golara, and R. Veliyath",
+      "journal": "The International Journal of Management Education",
+      "year": 2022,
+      "reference": "20(2), 100656",
+      "summary": "Identifies recurring challenges in teaching operations and supply chain management and offers approaches instructors can use.",
+      "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S1472811722000581",
+      "abstract_overview": "The authors survey U.S. operations and supply chain faculty and students taking a core course at one university. The results associate student satisfaction more closely with the individual instructor than with the topics covered or the teaching methods used. Students formed early impressions of instructors that predicted later satisfaction. The study discusses what those patterns mean for teaching courses that students and instructors expect to find difficult."
+    },
+    {
+      "id": "dealer-service",
+      "title": "Are Dealers Still Relevant? How Dealer Service Quality Impacts Manufacturer Success",
+      "authors": "S. Golara, K. J. Dooley, and N. Mousavi",
+      "journal": "Production and Operations Management",
+      "year": 2021,
+      "reference": "30(10), 3560–3578",
+      "summary": "Measures how dealership service quality affects the performance of the manufacturers they represent.",
+      "doi": "10.1111/poms.13450",
+      "abstract_overview": "The authors combine sales and service-quality ratings for 1,078 U.S. automobile dealerships across five vehicle classes. Better after-sales service was associated with more local sales for the manufacturer, including in markets where its brand already held a strong competitive position. Service during the sale mattered more in competitive markets where a brand had relatively few dealerships."
+    },
+    {
+      "id": "supply-chain-productivity",
+      "title": "Supply Chain Management Research Productivity and Growth: 2017–2019",
+      "authors": "M. J. Maloni, S. Golara, and G. H. Lowman",
+      "journal": "Transportation Journal",
+      "year": 2021,
+      "reference": "60(2), 208–237",
+      "summary": "Measures the growth and distribution of supply chain management research across institutions and journals.",
+      "doi": "10.5325/transportationj.60.2.0208",
+      "abstract_overview": "Using six journals, the study benchmarks supply chain management publications from 2017 to 2019 against earlier periods. A core group of highly productive universities remained relatively stable, while rankings outside that group changed more frequently. The analysis also finds a continuing expansion in the number of scholars contributing to the field."
+    },
+    {
+      "id": "sharing-distribution",
+      "title": "A Sharing-Enabled Portfolio Approach to Distribution",
+      "authors": "Z. S. Rogers, S. Golara, Y. Abdulsalam, and D. S. Rogers",
+      "journal": "Transportation Journal",
+      "year": 2020,
+      "reference": "59(2), 99–128",
+      "summary": "Applies a portfolio approach to choosing a mix of shared and dedicated distribution capacity.",
+      "doi": "10.5325/transportationj.59.2.0099",
+      "abstract_overview": "Serving customers online and in stores can require distribution facilities with different locations, capacities, and operating models. The paper outlines how shared, on-demand warehousing can complement a firm’s existing facilities as part of a distribution portfolio. It discusses how this flexibility can help firms meet delivery expectations across channels without committing all of their capacity in advance."
+    },
+    {
+      "id": "environmental-investments",
+      "title": "Corporate Environmental Investments: A Cross-National Study on Managerial Decision Making",
+      "authors": "A. Azadegan, S. Golara, A. Kach, and N. Mousavi",
+      "journal": "International Journal of Production Economics",
+      "year": 2018,
+      "reference": "199, 47–64",
+      "summary": "Compares how managers in different countries make investment decisions under pressure from stakeholders.",
+      "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925527317302943",
+      "abstract_overview": "A randomized scenario-based survey compares environmental investment decisions among 726 managers in Brazil, China, India, Germany, and the United States. Managers in the developing-country sample responded less to consumer pressure alone. When pressure from the local community accompanied consumer pressure, they were more inclined to invest. Resource availability also affected the two groups differently."
+    },
+    {
+      "id": "balanced-scorecard",
+      "title": "A Fuzzy-QFD Approach to Balanced Scorecard Using an Analytic Network Process",
+      "authors": "M. Tavana, N. Mousavi, and S. Golara",
+      "journal": "International Journal of Information and Decision Sciences",
+      "year": 2013,
+      "reference": "5(4), 331–363",
+      "summary": "Develops a method for prioritizing interdependent performance measures in a balanced scorecard.",
+      "doi": "10.1504/IJIDS.2013.058289",
+      "abstract_overview": "The authors develop a way to prioritize balanced-scorecard measures when performance objectives are interdependent and expert judgments are imprecise. Quality function deployment maps relationships among the scorecard’s perspectives, an analytic network model accounts for interdependencies, and fuzzy judgments represent uncertainty. A case study illustrates how the combined approach supports performance measurement."
+    },
+    {
+      "id": "glass-recovery",
+      "title": "Closed-Loop Supply Chain Network Design with Recovery of Glass Containers",
+      "authors": "S. Golara, N. Mousavi, M. J. Tarokh, and M. Hosseinzadeh",
+      "journal": "International Journal of Strategic Decision Sciences",
+      "year": 2012,
+      "reference": "3(4), 1–26",
+      "summary": "Models how to design a supply chain that collects and recovers used glass containers.",
+      "doi": "10.4018/jsds.2012100101",
+      "abstract_overview": "This paper develops a mixed-integer optimization model for a beverage supply chain that collects used glass containers. It combines decisions about the network’s design with operational decisions over multiple products and periods, from production and distribution through take-back and reprocessing. The case study illustrates how the model evaluates reuse and recycling alongside the forward flow of products."
+    }
+  ],
+  "media": [
+    {
+      "id": "hormuz",
+      "title": "Why the Strait of Hormuz matters to global markets",
+      "outlet": "11Alive",
+      "date": "2026-04-14",
+      "format": "Video",
+      "url": "https://www.youtube.com/watch?v=X95pAHzcq9g",
+      "image": "assets/11alive-hormuz.jpg",
+      "summary": "How disruptions at a major shipping chokepoint can affect energy prices and trade."
+    },
+    {
+      "id": "fed-rate",
+      "title": "The Take | Fed rate cut: What’s next?",
+      "outlet": "11Alive",
+      "date": "2025-09-19",
+      "format": "Video",
+      "url": "https://www.youtube.com/watch?v=9L4e8clwFkA",
+      "image": "Images/11AliveImge.png",
+      "summary": "What the rate cut signals about jobs and inflation, and what it means for borrowers and savers."
+    },
+    {
+      "id": "car-sales",
+      "title": "US car sales slow after tariff-driven buying surge ends",
+      "outlet": "Al Jazeera",
+      "date": "2025-08-13",
+      "format": "Article",
+      "url": "https://www.aljazeera.com/economy/2025/8/13/automakers-brace-for-profit-hits-as-tariffs-trigger-price-hikes",
+      "image": "Images/Aljazeer.png",
+      "summary": "How tariffs and the pull-forward of vehicle purchases affect auto prices and demand."
+    },
+    {
+      "id": "bloomberg-tariffs",
+      "title": "Tariff Turbulence Has CFOs Staring Down a Recession",
+      "outlet": "Bloomberg",
+      "date": "2025-04-13",
+      "format": "Article",
+      "url": "https://www.bloomberg.com/news/newsletters/2025-04-13/levi-s-levi-carnival-ccl-elevate-bio-stare-down-a-recession",
+      "image": "Images/BloombergImg.png",
+      "summary": "A look at how finance leaders assess demand and recession risk amid tariff uncertainty."
+    },
+    {
+      "id": "farmers-tariffs",
+      "title": "Farmers prepare for potential fallout from Trump’s Wednesday tariffs",
+      "outlet": "Scripps News",
+      "date": "2025-04-01",
+      "format": "Video",
+      "url": "https://www.scrippsnews.com/politics/economy/farmers-prepare-for-potential-fallout-from-trumps-wednesday-tariffs",
+      "image": "Images/Farmers.png",
+      "summary": "Potential retaliation and its implications for U.S. agricultural supply chains."
+    },
+    {
+      "id": "georgia-tariffs",
+      "title": "Shifting tariffs thrust Georgia companies onto unsteady ground",
+      "outlet": "The Atlanta Journal-Constitution",
+      "date": "2025-03-13",
+      "format": "Article",
+      "url": "https://www.ajc.com/news/business/shifting-tariffs-thrust-georgia-companies-onto-unsteady-ground/TJPF6HP7NFB7VHX5AF64L3V33I/",
+      "summary": "How changing tariffs complicate business planning and supply decisions for Georgia firms."
+    },
+    {
+      "id": "georgia-ports",
+      "title": "Vehicle cargo could be heading to Georgia ports following the collapse of Baltimore’s bridge",
+      "outlet": "WABE",
+      "date": "2024-03-29",
+      "format": "Audio",
+      "url": "https://www.wabe.org/vehicle-cargo-could-be-heading-to-georgia-ports-following-the-collapse-of-baltimores-bridge/",
+      "image": "Images/NPR.png",
+      "summary": "How rerouted automobile shipments could affect Georgia’s ports."
+    },
+    {
+      "id": "baltimore-nyt",
+      "title": "‘A Lot of Chaos’: Bridge Collapse Creates Upheaval at Largest U.S. Port for Car Trade",
+      "outlet": "The New York Times",
+      "date": "2024-03-26",
+      "format": "Article",
+      "url": "https://www.nytimes.com/2024/03/26/business/economy/baltimore-port-cargo-ships.html",
+      "image": "Images/NYTImg.png",
+      "summary": "How the closure of Baltimore’s port disrupted vehicle imports and exports."
+    },
+    {
+      "id": "baltimore-politico",
+      "title": "Auto industry braces for ‘weeks of disruption’ after the bridge collapse",
+      "outlet": "Politico",
+      "date": "2024-03-26",
+      "format": "Article",
+      "url": "https://www.politico.com/news/2024/03/26/auto-industry-disruption-bridge-collapse-00149185",
+      "image": "Images/PoliticoImg.png",
+      "summary": "The immediate implications for finished-vehicle routing and dealer inventory."
+    },
+    {
+      "id": "audi",
+      "title": "Here’s how Georgia leaders recruited Audi’s $4B plant, its first in the U.S.",
+      "outlet": "The Atlanta Journal-Constitution",
+      "date": "2026-10-26",
+      "format": "Article",
+      "url": "https://www.ajc.com/business/2026/10/how-georgia-won-audi-plant/",
+      "summary": "How Georgia’s automotive supplier network helped make the state attractive to Audi."
+    },
+    {
+      "id": "tariff-refunds",
+      "title": "How do Georgia businesses and consumers get tariff refunds? It’s complicated.",
+      "outlet": "The Atlanta Journal-Constitution",
+      "date": "2026-04-22",
+      "format": "Article",
+      "url": "https://www.ajc.com/business/2026/04/how-do-georgia-businesses-and-consumers-get-tariff-refunds-its-complicated/",
+      "summary": "Who can claim tariff refunds and which businesses and consumers ultimately paid the costs."
+    },
+    {
+      "id": "candymakers",
+      "title": "Bittersweet: Candymakers navigate tariff, supply chain challenges during holiday season",
+      "outlet": "WSB-TV",
+      "date": "2025-12-18",
+      "format": "Article",
+      "url": "https://www.wsbtv.com/news/local/bittersweet-candymakers-navigate-tariff-supply-chain-challenges-during-holiday-season/2QYRHCAOLFACVDUGWJ4TICISIE/",
+      "summary": "How tariffs and ingredient shortages shaped chocolate makers’ production decisions."
+    },
+    {
+      "id": "ajc-deadlines",
+      "title": "Stability remains elusive for Georgia businesses as tariff deadlines pass",
+      "outlet": "The Atlanta Journal-Constitution",
+      "date": "2025-08-12",
+      "format": "Article",
+      "url": "https://www.ajc.com/business/2025/08/stability-remains-elusive-for-georgia-businesses-as-tariff-deadlines-pass/",
+      "summary": "How tariffs and borrowing costs can affect Georgia businesses and consumers."
+    },
+    {
+      "id": "beauty-businesses",
+      "title": "Trump’s tariffs are leaving Black beauty businesses in peril",
+      "outlet": "Reuters",
+      "date": "2025-08-19",
+      "format": "Article",
+      "url": "https://www.reuters.com/world/us/trumps-tariffs-are-leaving-black-beauty-businesses-peril-2025-08-19/",
+      "summary": "How tariff costs reach businesses and consumers in the beauty supply chain."
+    },
+    {
+      "id": "wabe-data-centers",
+      "title": "Georgia’s economists weigh in on data center growth and tariff impacts",
+      "outlet": "WABE",
+      "date": "2025-08-29",
+      "format": "Audio",
+      "url": "https://www.wabe.org/georgias-economists-weigh-in-on-data-center-growth-and-tariff-impacts/",
+      "summary": "How automobile tariffs can affect Georgia dealerships, import volumes, and logistics."
+    },
+    {
+      "id": "tomato-tariffs",
+      "title": "The tomato tariff? US consumers set to pay price of Donald Trump’s trade war",
+      "outlet": "Financial Times",
+      "date": "2025-02",
+      "format": "Article",
+      "url": "https://www.ft.com/content/cf478656-e1c6-43e7-8b2d-e18e2161f160",
+      "summary": "How tariff retaliation could raise prices for U.S. consumers."
+    },
+    {
+      "id": "waffle-house",
+      "title": "Waffle House isn’t immune from inflation either. There’s a new surcharge on eggs",
+      "outlet": "NPR (All Things Considered)",
+      "date": "2025-02-05",
+      "format": "Audio",
+      "url": "https://www.npr.org/2025/02/05/nx-s1-5287644/waffle-house-isnt-immune-from-inflation-either-theres-a-new-surcharge-on-eggs",
+      "summary": "How an egg surcharge could change what customers order."
+    },
+    {
+      "id": "vox-tariffs",
+      "title": "Trump’s tariff plan is an inflation plan",
+      "outlet": "Vox",
+      "date": "2024-11-26",
+      "format": "Article",
+      "url": "https://www.vox.com/commerce/387800/trump-tariffs-inflation-economy-china-global-trade",
+      "summary": "Why absorbing higher tariff costs can be difficult for importers."
+    },
+    {
+      "id": "gpb-tariffs",
+      "title": "Georgia Today: President-elect Trump’s tariffs plan explained",
+      "outlet": "Georgia Public Broadcasting",
+      "date": "2024-11-13",
+      "format": "Audio",
+      "url": "https://www.gpb.org/news/2024/11/13/georgia-today-president-elect-trumps-tariffs-plan-explained-peer-support-centers",
+      "summary": "How proposed import tariffs could affect prices, jobs, and supply chains."
+    },
+    {
+      "id": "gsu-tariffs",
+      "title": "Are tariffs good or bad for the economy? Research says they can be bad for the supply chain",
+      "outlet": "Georgia State News Hub",
+      "date": "2024-10-15",
+      "format": "Article",
+      "url": "https://news.gsu.edu/2024/10/15/are-tariffs-good-or-bad-for-the-economy/",
+      "summary": "Georgia State reports on research on how tariffs affect firms across domestic supply networks."
+    },
+    {
+      "id": "mit-retail",
+      "title": "Inventory challenges in omnichannel retail with Drs. Sina Golara and Eva Ponce",
+      "outlet": "MIT Center for Transportation & Logistics",
+      "date": "2018-07-18",
+      "format": "Video",
+      "url": "https://www.youtube.com/watch?v=IhEdTX2SRxE",
+      "image": "assets/mit-retail.jpg",
+      "summary": "An MITx Supply Chain Fundamentals discussion about inventory challenges across retail channels."
+    }
+  ],
+  "teaching": [
+    {
+      "institution": "Georgia State University",
+      "school": "J. Mack Robinson College of Business",
+      "dates": "2023–present",
+      "courses": [
+        [
+          "MGT 4700",
+          "Operations Management",
+          "Undergraduate"
+        ],
+        [
+          "MGT 4740",
+          "Operations Strategy",
+          "Undergraduate"
+        ],
+        [
+          "MGT 8740",
+          "Supply Chain Strategy",
+          "Graduate"
+        ],
+        [
+          "MBA 8155",
+          "Operations Management",
+          "MBA"
+        ]
+      ],
+      "start_year": 2023,
+      "current": true
+    },
+    {
+      "institution": "Kennesaw State University",
+      "dates": "2019–2023",
+      "courses": [
+        [
+          "MGT 3200",
+          "Operations Management",
+          "Undergraduate"
+        ],
+        [
+          "MGT 7040",
+          "Managing the Value Chain",
+          "Graduate"
+        ]
+      ],
+      "start_year": 2019
+    },
+    {
+      "institution": "MIT Center for Transportation & Logistics",
+      "dates": "2018–2019",
+      "courses": [
+        [
+          "SC1x",
+          "Supply Chain Fundamentals",
+          "MITx teaching team"
+        ],
+        [
+          "SC2x",
+          "Supply Chain Design",
+          "MITx teaching team"
+        ]
+      ],
+      "start_year": 2018
+    },
+    {
+      "institution": "Arizona State University",
+      "dates": "2017–2018",
+      "courses": [
+        [
+          "SCM 432",
+          "Planning & Control Systems for Supply Chain Management",
+          "Instructor"
+        ],
+        [
+          "SCM 300",
+          "Introduction to Supply Chain Management",
+          "Teaching assistant"
+        ]
+      ],
+      "start_year": 2017
+    }
+  ],
+  "mentorship": [
+    [
+      "Incentivizing No-Rush Delivery in Omnichannel Retail",
+      "Graduate capstone co-advisor"
+    ],
+    [
+      "Online Grocery & Omnichannel Strategy: Predicting Home Delivery Adoption",
+      "Empirical research methods training"
+    ]
+  ],
+  "working_paper": {
+    "title": "The Effect of Portability Regulation on Piracy: Evidence from a Natural Experiment",
+    "authors": "Koushyar Rajavi, Shijie Lu, Sina Golara, and D. J. Wu",
+    "status": "Under minor revision at Management Science",
+    "summary": "Uses a natural experiment to examine how portability regulation affects piracy."
+  },
+  "honors": [
+    {
+      "title": "2025 Best Reviewer Award",
+      "organization": "Journal of Supply Chain Management",
+      "description": "Presented at the 2026 Academy of Management Annual Meeting.",
+      "url": "https://www.linkedin.com/posts/journalofsupplychainmanagement_meet-the-journal-of-supply-chain-management-activity-7498997816640466944-Q4xy"
+    },
+    {
+      "title": "Societal Impact Award",
+      "organization": "Robinson College of Business, Georgia State University · 2026",
+      "description": "Supports research on the effects of AI data centers on local communities."
+    }
+  ],
+  "dissertations": [
+    {
+      "title": "Navigating Supply Chain Disruptions: A Two-Essay Dissertation",
+      "name": "Madhavi Latha Nandi",
+      "role": "Dissertation committee member",
+      "institution": "Georgia State University · DBA · 2026"
+    },
+    {
+      "title": "Buyer-Supplier Relationships: A Case Investigation in the Rug and Textile Industry",
+      "name": "Obie Paul Byrum",
+      "role": "Dissertation reader",
+      "institution": "Kennesaw State University · PhD in Business Administration · Nov 8, 2023",
+      "url": "https://digitalcommons.kennesaw.edu/phdba_etd/35/"
+    }
+  ],
+  "invited_talk": {
+    "title": "Product Management",
+    "role": "Keynote speaker · July 29, 2026",
+    "organization": "Envision by WorldStrides National Youth Leadership Forum: Business Academy, Georgia Institute of Technology",
+    "summary": "Introduced high school students to the product lifecycle, customer research, and how to measure product success."
+  }
+}

@@ -1,22 +1,12 @@
 # CV and Website
 
-**1-Click Start:** https://github.com/saiprasadchary/prof-temp-portfolio/generate
+GitHub Pages serves the static site from the root of the main branch. [Sina Golara’s website](https://sinagolara.com/)
 
-## How to use (Professor)
-1. Click **Use this template** (link above).
-2. Name your repo (e.g., `prof-portfolio`), pick **Public**, then **Create**.
-3. Go to **Settings → Pages**:
-   - Source: **Deploy from a branch**
-   - Branch: **main** (/**root**)
-   - Save → wait for the green “Deployed” badge.
-4. Open the site at `https://<your-username>.github.io/<repo-name>/`.
+## Updating the site
 
-### Customize
-- Edit `index.html` → the `const professor = { ... }` block:
-  - `email`, `headshotUrl` (drop your image in **Images/**), `socials`, and `googleFormUrl` (or keep mailto).
-- Replace images in **Images/** to your branding.
-- (Optional) Update `<meta>` tags and JSON-LD to your profile links.
+1. Edit the shared records in `source/content.json` or the templates in `source/build_site.py`.
+2. Edit styles, scripts, and site assets in `assets/`. Keep the headshot and legacy media images in `Images/`.
+3. Run `python3 source/build_site.py` from the repository root to regenerate the four HTML pages.
+4. Review the generated pages, then commit the source changes and their generated HTML together.
 
-### Notes
-- This site uses **hash routes** (`#research`, `#teaching`) so it works out-of-the-box on GitHub Pages.
-- No build step required; everything is plain HTML/CSS/JS + Tailwind CDN.
+To build a separate preview folder, pass its path to `python3 source/build_site.py`. The preview build includes the local images, scripts, styles, and CV.
